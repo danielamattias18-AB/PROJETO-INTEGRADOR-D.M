@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simbiose Industrial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>SIMBIOSE INDUSTRIAL</h1>
+        <h2>Integrando atividade econômica, meio ambiente e bem-estar da sociedade.</h2>
+    </header>
+
+    <section class="container">
+        <img src="https://mercadohoje.uai.com.br/wp-content/uploads/2025/06/arcelormittal-joao-monlevade-cancela-expansao-de-usina-entenda-scaled.jpg" alt="Simbiose Industrial"class="imagem-industria">
+    </section>
+
+    <section class="cards">
+
+        <div class="card">
+            <h3>ECONOMIA CIRCULAR</h3>
+            <p>
+                Os resíduos gerados por uma indústria podem se tornar matéria-prima para outra,
+                reduzindo desperdícios e aumentando a eficiência dos recursos.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>DESPERDÍCIO ZERO</h3>
+            <p>
+                Resíduos industriais deixam de ser poluentes e passam a ser ativos valiosos,
+                retornando ao ciclo produtivo.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>RESÍDUO = RECURSO</h3>
+            <p>
+                O que antes era descartado pode gerar renda, inovação e benefícios para
+                empresas e comunidades.
+            </p>
+        </div>
+
+    </section>
+
+    <section class="simulador">
+
+        <h2>Exemplos de Simbiose Industrial</h2>
+
+        <select id="industria">
+            <option value="">Selecione uma indústria</option>
+            <option value="altoforno">Siderúrgica (Alto-Forno)</option>
+            <option value="alimenticia">Alimentícia</option>
+            <option value="madeireira">Madeireira</option>
+        </select>
+
+        <button onclick="mostrarExemplo()">Consultar</button>
+
+        <div id="resultado"></div>
+
+    </section>
+
+    <section class="beneficios">
+
+        <h2>Benefícios da Simbiose Industrial</h2>
+
+        <div class="beneficios-grid">
+            <div>♻️ Menos resíduos</div>
+            <div>💧 Economia de água</div>
+            <div>⚡ Eficiência energética</div>
+            <div>🌱 Redução de CO₂</div>
+        </div>
+
+    </section>
+
+    <section class="newsletter">
+
+        <h3>Cadastre-se para receber novidades</h3>
+
+        <input type="text" id="nome" placeholder="Nome">
+
+        <input type="email" id="email" placeholder="E-mail">
+
+        <button onclick="cadastrar()">Enviar</button>
+
+        <p id="mensagem"></p>
+
+    </section>
+
+    <script src="script.js"></script>
+
+    <footer>
+    <p>Projeto Integrador-JM © 2026</p>
+    <p>Desenvolvido por: Daniela Silva Matias</p>
+</footer>
+
+</body>
+
+</html>
